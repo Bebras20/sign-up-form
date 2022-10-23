@@ -1,0 +1,49 @@
+@font-face {
+    font-family: myFirstFont;
+    src: url(/sign-up-form/28_Days_Later/28_Days_Later.ttf);
+  }
+.container{
+    display: flex;
+}
+
+.wrapper_image{
+    position:relative;
+    
+}
+
+.image-container{
+    
+    width: 100%;
+ 
+}
+.logo-title-heading {
+    display: flex;
+    justify-content: center;
+
+    position: absolute;
+    top: 25%;
+    width: 100%;
+    height: 8vw;
+    background: black;
+    opacity: 0.6;
+    background-color: rgb(0, 0, 0);
+    color: white;
+    text-align: center;
+    font-size: 1.2em;
+    font-family: roboto;
+    
+  
+ }
+ .heading{
+    padding-top: 8%;
+    font-family: myFirstFont;
+    font-size: 50px;
+    
+ }
+ 
+
+.forms{
+    width: 35%;
+    border: solid 500px rgb(157, 8, 8);
+}
+
